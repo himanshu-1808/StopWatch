@@ -1,0 +1,24 @@
+cd onedrive/Desktop {for home desktop}
+
+
+Git Commands:
+
+
+
+1. Make folder and change the directory to that folder.
+#To make folder a git repo...
+1. git init
+2. git add {file name}
+3. git commit -m "Inital commit"              {To add all the files use git add .}
+
+
+#To make git branch
+1. git branch {branch name}
+ `					git checkout -b {branch name}
+#To change branch
+1. git checkout {branch name}
+
+
+#To merge 2 branches
+1.git checkout {branch name} in which we want to merge
+2.git merge {branch name to be merged}
