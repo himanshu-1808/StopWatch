@@ -24,5 +24,3 @@ Git Commands:
 2.git merge {branch name to be merged}
 
 
-#To add existing project int github
-1. git 
