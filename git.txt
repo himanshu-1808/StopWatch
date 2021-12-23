@@ -22,5 +22,5 @@ Git Commands:
 #To merge 2 branches
 1.git checkout {branch name} in which we want to merge
 2.git merge {branch name to be merged}.
-3.nothing
+
 

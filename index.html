@@ -1,27 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="index.css">
-   
+    <title>Stopwatch</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
-
 <body>
-    <div class="container">
-        <div class="timerDisplay">
-            00 : 00 : 00 : 000
-        </div>
-        
-        <div class="button">
-            <button id="startTimer">SET</button>
-            <button id="pauseTimer">PAUSE</button>
-            <button id="stopTimer">STOP</button>
-        </div>
-    </div>
+  <div class="container">
+      <div class="timerDisplay">
+          00 : 00 : 00 : 000
+      </div>
+      <div class="buttons">
+        <button id="startTimer">START</button>
+        <button id="pauseTimer">PAUSE</button>
+        <button id="resetTimer">RESET</button>
+        <button id="setAlarm" >ALARM</button>
+      </div>
+          <div class="input">
+            <label class="text-input">
+              <input id="login" type="text" placeholder="Time">
+              <span class="placeholder">00:00:00</span>
+              <span class="background"></span>
+              
+          </label>
+          </div>
+  </div>
 </body>
 <script src="index.js"></script>
 </html>
